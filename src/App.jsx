@@ -18,7 +18,7 @@ const App = () => {
       
       <footer className="py-8 border-t border-slate-800 text-center text-slate-500 text-sm">
         <div className="container mx-auto px-4">
-          <p>&copy; {new Date().getFullYear()} Alarm-Jaison Systems. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} ALARM.IN. All rights reserved.</p>
         </div>
       </footer>
     </div>

@@ -38,7 +38,7 @@ const Navbar = () => {
               <ShieldCheck className="w-6 h-6 text-emerald-400" />
             </div>
             <span className="text-xl font-bold tracking-tight text-white">
-              Alarm-Jaison
+              ALARM.IN
             </span>
           </div>
 
