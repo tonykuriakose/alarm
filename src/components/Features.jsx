@@ -44,7 +44,7 @@ const features = [
 
 const Features = () => {
   return (
-    <section id="features" className="py-24 bg-slate-950 relative overflow-hidden">
+    <section id="features" className="py-24 relative overflow-hidden">
         {/* Decorative blobs */}
         <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-purple-500/10 blur-[100px] rounded-full mix-blend-screen" />
         <div className="absolute bottom-0 left-0 w-[500px] h-[500px] bg-blue-500/10 blur-[100px] rounded-full mix-blend-screen" />

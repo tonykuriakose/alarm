@@ -1,10 +1,10 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { Phone, Mail, MapPin } from "lucide-react";
+import { Phone, Mail, MapPin, MessageCircle } from "lucide-react";
 
 const Contact = () => {
   return (
-    <section id="contact" className="py-24 bg-slate-900 relative overflow-hidden">
+    <section id="contact" className="py-24 relative overflow-hidden">
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
             <motion.div
@@ -20,11 +20,12 @@ const Contact = () => {
               Ready to secure your home or business? Contact us directly for a free consultation and quote.
             </p>
 
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
               {[
-                { icon: Phone, text: "+91 98765 43210", label: "Call Us", href: "tel:+919876543210" },
-                { icon: Mail, text: "support@alarm.in", label: "Email Us", href: "mailto:support@alarm.in" },
-                { icon: MapPin, text: "123 Security Avenue, Tech Park, India", label: "Visit Office", href: "#" },
+                { icon: Phone, text: "9019603173", label: "Call Us", href: "tel:9019603173" },
+                { icon: MessageCircle, text: "Chat on WhatsApp", label: "WhatsApp", href: "https://wa.me/919019603173" },
+                { icon: Mail, text: "sales@alaram.in", label: "Email Us", href: "mailto:sales@alaram.in" },
+                { icon: MapPin, text: "Angamali, Ernakulam", label: "Visit Office", href: "#" },
               ].map((item, idx) => (
                 <div key={idx} className="flex flex-col items-center p-8 rounded-2xl bg-slate-800/50 border border-slate-700/50 hover:bg-slate-800 transition-colors group">
                   <div className="bg-emerald-500/10 p-4 rounded-full mb-6 group-hover:bg-emerald-500/20 transition-colors">

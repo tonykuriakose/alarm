@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { ShieldCheck, Menu, X } from "lucide-react";
+import { ShieldCheck, Menu, X, Phone } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { cn } from "../lib/utils";
 
@@ -54,9 +54,9 @@ const Navbar = () => {
                   {link.name}
                 </a>
               ))}
-              <button className="bg-emerald-500 hover:bg-emerald-600 text-white px-4 py-2 rounded-full text-sm font-medium transition-all hover:shadow-[0_0_20px_rgba(16,185,129,0.5)]">
-                Get Quote
-              </button>
+              <a href="tel:9019603173" className="flex items-center gap-2 bg-emerald-500/10 hover:bg-emerald-500/20 text-emerald-400 px-4 py-2 rounded-full text-sm font-medium transition-all border border-emerald-500/20">
+                <Phone className="w-4 h-4" /> 9019603173
+              </a>
             </div>
           </div>
 
@@ -92,9 +92,9 @@ const Navbar = () => {
                   {link.name}
                 </a>
               ))}
-              <button className="w-full mt-4 bg-emerald-500 hover:bg-emerald-600 text-white px-4 py-2 rounded-lg text-sm font-medium">
-                Get Quote
-              </button>
+              <a href="tel:9019603173" className="w-full mt-4 flex items-center justify-center gap-2 bg-emerald-500/10 hover:bg-emerald-500/20 text-emerald-400 px-4 py-2 rounded-lg text-sm font-medium border border-emerald-500/20">
+                <Phone className="w-4 h-4" /> 9019603173
+              </a>
             </div>
           </motion.div>
         )}

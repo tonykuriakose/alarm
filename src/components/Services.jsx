@@ -9,7 +9,7 @@ import {
 
 const Services = () => {
   return (
-    <section id="services" className="py-24 bg-slate-950 relative overflow-hidden">
+    <section id="services" className="py-24 relative overflow-hidden">
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-20">
           <motion.h2 

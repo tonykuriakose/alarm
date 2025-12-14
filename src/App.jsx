@@ -8,10 +8,12 @@ import Hero from './components/Hero';
 import Features from './components/Features';
 import Services from './components/Services';
 import Contact from './components/Contact';
+import LightRays from './components/LightRays';
 
 const App = () => {
   return (
-    <div className="bg-slate-950 text-white selection:bg-emerald-500/30 selection:text-emerald-400 min-h-screen">
+    <div className="bg-slate-950 text-white selection:bg-emerald-500/30 selection:text-emerald-400 min-h-screen relative">
+      <LightRays speed={3} />
       <Navbar />
       <main>
         <Hero />
